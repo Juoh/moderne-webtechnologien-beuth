@@ -7,21 +7,12 @@
     <script src="node_modules/react/dist/react.min.js"></script>
     <script src="node_modules/react-dom/dist/react-dom.min.js"></script>
     <script src="node_modules/babel-standalone/babel.min.js"></script>
-    <script src="app.js"></script>
+    <script src="app.jsx"></script>
+    <script src="test/button.test.js"></script>
 </head>
 
 <body>
     <div id="root"></div>
-    <script type="text/babel">
-
-        const element = (
-        <div>
-            <h1 id="hello_world">Hello world!</h1>
-            <button ref="button" onClick={handleClick}>Click</button>
-        </div>
-        ); ReactDOM.render( element, document.getElementById('root') );
-
-    </script>
 </body>
 
 </html>
