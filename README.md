@@ -1,6 +1,6 @@
 # Aktuelle Webtechnologien: Frameworks und Tools (SoSe17)
 
-Teammitglieder: Stefan, Johan, Samed, Marco 
+Teammitglieder: Stefan, Johan, Samed, Marco
 
 Dozent: Sven Spielvogel
 
@@ -25,6 +25,23 @@ Dozent: Sven Spielvogel
 ### Package Manager
 1) Yarn (https://yarnpkg.com)
 
+#### Install yarn
+https://yarnpkg.com/en/docs/install#mac-tab
+
+##### Mac OS X
+```
+brew install yarn
+yarn --version
+```
+
+#### Basic commands yarn
+```
+yarn init
+yarn add <package>
+yarn remove <package>
+yarn install
+```
+
 ### Stack
 1) React (https://facebook.github.io/react/)
 2) Bootstrap (https://getbootstrap.com)
@@ -39,4 +56,4 @@ Dozent: Sven Spielvogel
 
 ### Online Courses
 * https://www.codecademy.com/learn/react-101
-* https://www.udemy.com/courses/search/?q=react&src=ukw&sort=most-reviewed 
+* https://www.udemy.com/courses/search/?q=react&src=ukw&sort=most-reviewed
