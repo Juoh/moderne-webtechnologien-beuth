@@ -4,5 +4,10 @@
   "description": "Unsere erste Übung",
   "main": "index.js",
   "repository": "https://github.com/mriege/moderne-webtechnologien-beuth",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "babel-standalone": "^6.24.0",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  }
 }
