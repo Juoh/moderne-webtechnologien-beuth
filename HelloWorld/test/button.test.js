@@ -1,4 +1,5 @@
-function test_button() {
-  var node = this.refs.button;
-  ReactTestUtils.Simulate.click(node);
-}
+var app = require('../app.js');
+
+test("button-test", () => {
+expect(document.getElementById('hello_world').innerHTML).toBe("Hallo Berlin!");
+});
