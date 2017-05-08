@@ -22,7 +22,7 @@ class App extends Component {
           <h2 ref="heading" className="display-text">{this.state.helloWorldState ? 'Hello World' : 'Hello Berlin'}</h2>
         </div>
         <p className="App-intro">
-          <Button clickHandler={this.handleClick}></Button>
+          <Button clickHandler={this.handleClick} ref="button" class="my-button"></Button>
         </p>
       </div>
     );

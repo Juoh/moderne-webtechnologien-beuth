@@ -11,11 +11,12 @@ it('renders without crashing', () => {
 
 describe('button tests', () => {
     it('change text to Hello Berlin', () => {
-        var btn = ReactTestUtils.renderIntoDocument( <Button/> );
-        const node = btn.refs.button;
+      var renderedTree = ReactTestUtils.renderIntoDocument(<App />);
+      var renderedMyComponent = ReactTestUtils.findRenderedDOMComponentWithClass(renderedTree, 'my-button')
+
+        const node = renderedMyComponent.refs.button;
         ReactTestUtils.Simulate.click(node);
-        var app = ReactTestUtils.renderIntoDocument( <App/> );
-        const text = app.refs.heading.innerHTML;
+        const text = renderedTree.refs.heading.innerHTML;
         expect(text).toBe("Hello Berlin");
     });
 
